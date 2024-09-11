@@ -1,0 +1,13 @@
+prefix=/Users/bd/Documents/__DEV_5/__experiments/AI/Complete-Python-Bootcamp/venv
+exec_prefix=/Users/bd/Documents/__DEV_5/__experiments/AI/Complete-Python-Bootcamp/venv
+libdir=/Users/bd/Documents/__DEV_5/__experiments/AI/Complete-Python-Bootcamp/venv/lib
+sharedlibdir=/Users/bd/Documents/__DEV_5/__experiments/AI/Complete-Python-Bootcamp/venv/lib
+includedir=/Users/bd/Documents/__DEV_5/__experiments/AI/Complete-Python-Bootcamp/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

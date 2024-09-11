@@ -1,0 +1,5 @@
+#!/Users/bd/Documents/__DEV_5/__experiments/AI/Complete-Python-Bootcamp/venv/bin/python3.12
+import sys
+from lib2to3.main import main
+
+sys.exit(main("lib2to3.fixes"))

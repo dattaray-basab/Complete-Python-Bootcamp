@@ -1,0 +1,11 @@
+prefix=/Users/bd/Documents/__DEV_5/__experiments/AI/Complete-Python-Bootcamp/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/bd/Documents/__DEV_5/__experiments/AI/Complete-Python-Bootcamp/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
